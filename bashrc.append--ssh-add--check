@@ -1,0 +1,3 @@
+
+if [ $(ssh-add -l 2>&1 1>/dev/null ; echo $?) -ne 0 ] ; then ssh-add ; fi
+
